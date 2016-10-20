@@ -1,5 +1,7 @@
 
-(require "gui.scm")
+;(import (gui))
+(import (pos))
+
 (require 'list-lib)
 
 (define *board*
@@ -404,3 +406,4 @@
            (can-castle-queenside? (color-of val)))
       #t)
      (else #f))))
+

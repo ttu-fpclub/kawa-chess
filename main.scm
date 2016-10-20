@@ -1,8 +1,8 @@
 
-(require "pos.scm")
-(require "chess.scm")
-(require "img.scm")
-(require "gui.scm")
+(import (pos))
+(import (chess))
+(import (img))
+(import (gui))
 
 (initialize-board)
 (make-default-frame)

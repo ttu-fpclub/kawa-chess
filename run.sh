@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java kawa.repl -f main.scm
+java kawa.repl -f load.scm

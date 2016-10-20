@@ -17,3 +17,4 @@
 
 (define (get-image datum)
   (car (cdr (assoc datum *images*))))
+

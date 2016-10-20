@@ -1,6 +1,7 @@
 
-(require "img.scm")
-(require "chess.scm")
+(import (pos))
+(import (chess))
+(import (img))
 
 (define +size+ 64)
 
@@ -110,3 +111,4 @@
         ((2) 'bishop)
         ((3) 'queen)
         (else (promotion-dialogue))))))
+
